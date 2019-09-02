@@ -12,7 +12,7 @@ if [[ ! -d "$DIR" ]]; then
 fi
 
 if [[ -f "$DIR/virSorter_list.txt" ]]; then
-    rm "virSorter_list.txt"
+    rm "$DIR/virSorter_list.txt"
 fi
 
 export FILE_LIST="$DIR/virSorter_list.txt"

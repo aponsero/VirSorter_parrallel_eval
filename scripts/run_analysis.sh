@@ -17,7 +17,7 @@ echo "Started `date`">>"$LOG"
 echo "Host `hostname`">>"$LOG"
 
 MYFILE=`head -n +${PBS_ARRAY_INDEX} $FILE_LIST | tail -n 1`
-FILENAME="${MYDATA:2}"
+FILENAME="${MYFILE:2}"
 FILE="$DIR/$FILENAME"
 OUT="$OUT_DIR/${FILENAME%???}"
 

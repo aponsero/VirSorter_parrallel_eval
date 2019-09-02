@@ -3,8 +3,8 @@ export CWD=$PWD
 export BIN_DIR="/rsgrps/bhurwitz/hurwitzlab/bin"
 export VIR_DATA="/rsgrps/bhurwitz/alise/tools/virsorter-data"
 # where the dataset to prepare is
-export DIR="/rsgrps/bhurwitz/alise/my_data/Nostoc_project/Lichen_metagenomes/Viral_search_assembly1/dataset1" # Directory where the data is stored
-export OUT_DIR="/rsgrps/bhurwitz/alise/my_data/Nostoc_project/Lichen_metagenomes/Viral_search_assembly1/VirSorter"
+export DIR="/rsgrps/bhurwitz/alise/my_data/Nostoc_project/Lichen_metagenomes/experiments/3-mock_community/mock1/mock1_5000pb_10kcontigs" # Directory where the data is stored
+export OUT_DIR="/rsgrps/bhurwitz/alise/my_data/Nostoc_project/Lichen_metagenomes/experiments/3-mock_community/mock1/VirSorter/mock1_5000pb_10kcontigs"
 #place to store the scripts
 export SCRIPT_DIR="$PWD/scripts"
 # User informations
