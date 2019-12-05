@@ -1,12 +1,6 @@
 # VirSorter_parrallel_eval
 Pipeline for parrallel VirSorter on HPC (PBS scheduler)
 
-
-# VirFinder_parrallel_eval
-Pipeline for VirFinder use on dataset. Parallelized for HPC use.
-
-The complete pipeline will run VirFinder on all submitted files.
-
 ## Requirements
 
 ### VirSorter
